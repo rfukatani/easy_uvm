@@ -17,7 +17,7 @@ module top;
    import uvm_pkg::*;
    import   tinyalu_pkg::*;
 `include "tinyalu_macros.svh"
-`include "uvm_macros.svh"
+//`include "uvm_macros.svh"
    
    tinyalu_bfm       bfm();
    tinyalu DUT (.A(bfm.A), .B(bfm.B), .op(bfm.op), 

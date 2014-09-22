@@ -13,4 +13,10 @@ Second, start modelsim ASE and input this sentence in terminal.
 
 You can run register test.
 
+Part of code including description of the book "UVM PRIMER".
+These codes are licensed under Apache License.
+   Copyright 2013 Ray Salemi
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+
 ========

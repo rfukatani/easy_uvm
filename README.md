@@ -1,10 +1,10 @@
 easy_uvm
 
-The purpose of this project is use UVM rapid start.
-These codes are available for Modelsim ASE.
+The purpose of this project is start UVM rapidly.
+These codes are available for Modelsim ASE or other simulator.
 If you want to use this project, you clone this prpject and edit "reg.tcl" first line.
 
-example 
+example:
 set UVM_PATH C:\altera\14.0\modelsim_ase\verilog_src\uvm-1.2
 
 

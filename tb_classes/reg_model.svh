@@ -1,6 +1,4 @@
-//–¢ŽÀ‘•
 
-//
 //------------------------------------------------------------------------------
 //   Copyright 2011 Mentor Graphics Corporation
 //   Copyright 2011 Synopsys, Inc.
@@ -21,6 +19,7 @@
 //   permissions and limitations under the License.
 //------------------------------------------------------------------------------
 
+// omitted some registers by Ryosuke Fukatani
 `ifndef REG_SLAVE
 `define REG_SLAVE
 

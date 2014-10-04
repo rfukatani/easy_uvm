@@ -34,7 +34,7 @@ class driver extends uvm_driver #(sequence_item);
                 
          bfm.send_op(cmd.A, cmd.B, cmd.op, result);
          
-         //2014.08.29
+         //2014.08.29 changed
          cmd.result = result;
          seq_item_port.item_done();
       end : cmd_loop

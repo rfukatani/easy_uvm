@@ -12,6 +12,9 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+   Almost coverage were commented out by Ryosuke Fukatani.
+   (Because modelsim ASE can't use functional coverage.)
 */
 class coverage extends uvm_subscriber #(sequence_item);
    `uvm_component_utils(coverage)

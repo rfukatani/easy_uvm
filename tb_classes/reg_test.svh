@@ -1,5 +1,5 @@
 /*
-   Copyright 2013 Ray Salemi
+   Copyright 2014 Ryosuke Fukatani
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,6 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
+
 class reg_test extends tinyalu_base_test;
    `uvm_component_utils(reg_test);
 

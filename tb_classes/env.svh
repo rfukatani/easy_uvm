@@ -12,6 +12,8 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+   Added reg_model by Ryosuke Fukatani.
 */
 
 class env extends uvm_env;
@@ -51,7 +53,7 @@ class env extends uvm_env;
 
    function void connect_phase(uvm_phase phase);
       reg2drv_adapter reg2drv = new;
-      reg_model_h.default_map.set_sequencer(sequencer_h, reg2drv);//mapとのシークエンサーのコネクト
+      reg_model_h.default_map.set_sequencer(sequencer_h, reg2drv);//connect map with sequencer
       reg_model_h.default_map.set_auto_predict(1);//implicit predicr
       
       driver_h.seq_item_port.connect(sequencer_h.seq_item_export);

@@ -12,6 +12,8 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+   Add write/read function and some sequence by Ryousuke Fukatani
 */
 package tinyalu_pkg;
    import uvm_pkg::*;
